@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>Sports Academy | Signup</title>
+</head>
+<link href="style.css" type="text/css" rel="stylesheet" />
+<!-- Internal CSS -->
+<body>
+	<div class="header">
+        <header>
+        <!-- href is used for linking page address -->
+            <a href="new.html">
+            <img src="images/logo.jpeg" width="100px" ></a>
+            <h1> Sports Academy</h1>
+        </header>
+    </div>
+
+    <div class="topnav">
+		<a class="active" href="index.html">Home</a>
+		<a href="about.html">About US</a>
+		<a href="services.html">Our Services</a>
+		<a href="gallery.html">Photo Gallery</a>
+		<a href="contact.html">Contact Us</a>
+		<a href="login.html">Login</a>
+	</div>
+
+	<!-- Form is used for signup. "&nbsp" is used to give space. -->
+<form id="form" action="" method="post">
+<fieldset>
+<legend> <font size="5">Sign Up Below </font></legend>
+	<div class="area">
+		<label>First Name:</label>
+		<input id="fname" type="text" name="name"/>
+		<label>Last Name :</label>
+		<input id="lname" type="text" name="name"/>
+	</div>
+	
+	<div class="area">
+		<label>Phone NO  :</label>
+		<input id="phone" type="text" name="name"/>
+		<label>Address   :</label>
+		<input id="address" type="text" name="name"/>
+	</div>
+
+	<div class="area">
+		<label>Email     :</label>
+		<input id="email" type="email" name="name"/>
+		<label for="edu-label">Qualification  :</label>
+			<select id="edu-level" name="level">
+				<option value="">ENTER YOUR LEVEL</option>
+				<option value="highschool">Intermediate</option>
+				<option value="University">Bachelor</option>
+				<option value="University">Masters </option>
+			</select>
+	</div>
+
+	<div class="ll1">
+		<label>Gender:</label>
+		<input type="radio" name="gender" value="yes"/> Male 
+		<input type="radio" name="gender" value="yes"/> Female
+	</div>
+
+	<div class="ll2">
+		<label>Hobbies:</label><br>			
+		<input type="checkbox" name="suscribe"/> Event Managemet<br>
+		<input type="checkbox" name="suscribe"/> Sports<br>
+		<input type="checkbox" name="suscribe"/> Singing<br>
+		<input type="checkbox" name="suscribe"/> Dancing<br>
+		<input type="checkbox" name="suscribe"/> Trekking<br>
+		<input type="checkbox" name="suscribe"/> Travelling<br>
+		<input type="checkbox" name="suscribe"/> Riding<br>
+		<input type="checkbox" name="suscribe"/> Computer Programming<br>
+	</div>	
+
+	<div class="ll3">
+		<input type="submit" onclick="recheck(this.form)" value="Sign Up"/>
+	</div>
+
+	<h3 align="center">
+		<p id="errorMessage" class="error"></p>
+	</h3>
+</fieldset>
+</form>
+	<p id="successMessage" class="success"></p>
+
+	<!-- img is used to insert icon and href is linked on the icons in footer -->
+<div class="foot">
+	<a target="_blank" href="https://www.linkedin.com/"><img src="images/li.png" width="30" height="30"></a>
+	<a target="_blank" href="https://www.twitter.com/"><img src="images/tw.png" width="30" height="30"></a>
+	<a target="_blank" href="https://www.skype.com/"><img src="images/sk.png" width="30" height="30"></a>
+	<a target="_blank" href="https://www.youtube.com/"><img src="images/yu.png" width="30" height="30"></a>
+	<a target="_blank" href="https://www.discord.com/"><img src="images/dc.png" width="30" height="30"></a>
+	  <!--b><h5 id="fo" align="center"></h5><b-->
+</div>
+
+<div class="footer">
+	  <b><h5 id="fo" align="center"></h5><b>
+</div>
+	
+<!-- JavaScript used in the recent page are listed below. Script is used for it -->
+<script src="signup.js" ></script>
+<script src="footer.js" ></script>
+</body>
+</html>

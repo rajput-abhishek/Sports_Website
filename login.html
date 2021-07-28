@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Sports Academy | Login</title>
+</head>
+<link href="style.css" type="text/css" rel="stylesheet" />
+<body>
+<div class="header">
+	<header>
+	<!-- href is used for linking page address -->
+		<a href="new.html">
+		<img src="images/logo.jpeg" width="100px" ></a>
+		<h1> Sports Academy</h1>
+	</header>
+</div>
+
+<div class="topnav">
+	<a class="active" href="index.html">Home</a>
+	<a href="about.html">About US</a>
+	<a href="services.html">Our Services</a>
+	<a href="gallery.html">Photo Gallery</a>
+	<a href="contact.html">Contact Us</a>
+	<a href="login.html">Login</a>
+</div>
+
+
+<div class="l1">
+<!-- Form is created for login section -->
+<form id="form1" method="post">	
+			<fieldset id="l2">
+				<legend > Fill up details</legend>				
+				<label> Username: 
+					<input id="username" type="text" name="username">			
+				</label><br>
+				<label> Password:&nbsp; 
+					<input id="password" type="text" name="password">			
+				</label><br />				
+				 <br />
+				<input type="button" value="Login" id="submit" onclick="validate()"/>			
+				<br />
+				<font color="red" size="4em"><label id="error"></label></font>		
+				<br /><br />
+				<a href="signup.html"><font color="white"> Sign Up For Free!</font></a>				
+			</fieldset>			
+		</form>		
+</div>
+
+<!-- img is used to insert icon and href is linked on the icons in footer -->
+<div class="foot">
+	<!-- img is used to insert icon and href is linked on the icons in footer -->
+	<a target="_blank" href="https://www.linkedin.com/"><img src="images/li.png" width="30" height="30"></a>
+	<a target="_blank" href="https://www.twitter.com/"><img src="images/tw.png" width="30" height="30"></a>
+	<a target="_blank" href="https://www.skype.com/"><img src="images/sk.png" width="30" height="30"></a>
+	<a target="_blank" href="https://www.youtube.com/"><img src="images/yu.png" width="30" height="30"></a>
+	<a target="_blank" href="https://www.discord.com/"><img src="images/dc.png" width="30" height="30"></a>
+	  <!--b><h5 id="fo" align="center"></h5><b-->
+</div>
+
+<div class="footer">
+	  <b><h5 id="fo" align="center"></h5><b>
+</div>
+	
+<!-- JavaScript used in the recent page are listed below. Script is used for it -->
+<script src="validation.js" ></script>
+<script src="footer.js" ></script>
+
+</body>
+</html>
